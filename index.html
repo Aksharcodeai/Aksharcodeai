@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshar Code AI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="theme-dark">
+  <!-- Theme Switch Button -->
+  <button id="themeSwitch" class="theme-btn">🌞</button>
+
+  <!-- Animated Background -->
+  <div id="background">
+    <div class="gradient"></div>
+    <canvas id="particles"></canvas>
+  </div>
+
+  <!-- Main App Card -->
+  <div class="app-container glass-card rounded-2xl p-6 md:p-8 relative z-10">
+    <h1 class="title-gradient mb-4">Akshar Code AI</h1>
+    <p class="text-center mb-6">Convert text ↔ number in style ✨</p>
+
+    <!-- Tabs -->
+    <div class="flex justify-center mb-6 space-x-4">
+      <button id="tab1" class="tab-btn active">Letter ➜ Number</button>
+      <button id="tab2" class="tab-btn">Number ➜ Letter</button>
+    </div>
+
+    <!-- Converter Sections -->
+    <div id="converter1" class="converter active">
+      <textarea id="inputText" placeholder="Type text here..."></textarea>
+      <button id="convertBtn" class="btn-primary mt-4">Convert to Numbers</button>
+      <div class="mt-2 flex items-center space-x-2">
+        <div id="outputText" class="output-box w-full"></div>
+        <button id="copyBtn" class="btn-primary py-2 px-4 text-sm">Copy</button>
+      </div>
+    </div>
+
+    <div id="converter2" class="converter hidden">
+      <textarea id="inputNumbers" placeholder="Type numbers here (e.g., 8 5 12 12 15)..."></textarea>
+      <button id="reverseBtn" class="btn-primary mt-4">Convert to Letters</button>
+      <div id="outputLetters" class="output-box mt-4"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
